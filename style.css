@@ -6,12 +6,17 @@ h1{
 }
 .display-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
 }
-.half-width img{
+.half-width1{
     width: 70%;
+}
+.half-width2{
+    width: 40%;
+    padding-left: 200px;
 }
 .orange{
     color: orange;
@@ -28,4 +33,7 @@ a{
 }
 .half-width p{
     margin-bottom: 60px;
+}
+.back-sec{
+    background-image: url(images/shapes/7.png);
 }
