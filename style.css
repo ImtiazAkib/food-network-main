@@ -1,20 +1,28 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 60px;
+}
+h2{
+    font-weight: 700;
+    font-size: 30px;
 }
 .display-container{
     display: flex;
     margin-bottom: 100px;
 }
+#margin-top-sec{
+    margin-left: 40px;
+}
 .half-width{
     width: 50%;
 }
-.half-width1{
+.half-width-top{
     width: 70%;
 }
-.half-width2{
+.half-width-mid{
     width: 40%;
     padding-left: 200px;
 }
@@ -36,4 +44,61 @@ a{
 }
 .back-sec{
     background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+.text-pos{
+    text-align: center;
+    margin-bottom: 40px;
+}
+#cake-box{
+    width: 25%;
+    margin-left: 80px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 30px;
+    padding: 40px 20px;
+}
+#cake-box img{
+    width: 70%;
+    padding-left: 50px;
+}
+#soup-box{
+    width: 25%;
+    margin-left: 40px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 30px;
+    padding: 40px 20px;
+    
+}
+#soup-box img{
+    width: 70%;
+    padding-left: 40px;
+}
+#veg-box{
+    width: 25%;
+    margin-left: 40px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 30px;
+    padding: 40px 20px;
+}
+#veg-box img{
+    width: 70%;
+    padding-left: 40px;
+}
+.bot-box{
+    box-shadow: 5px 5px 10px gray;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.bot-box div{
+    margin-left: 160px;
+}
+footer{
+    text-align: center;
+    background-color: #000000e1;
+    color: white;
+    padding-bottom: 100px;
+}
+
